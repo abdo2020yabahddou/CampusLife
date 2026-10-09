@@ -1,41 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Campus Life</title>
-    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<div class="headerDetails">
-    <div> [Youcode]</div>
-    <div> Home</div>
-    <div> Join us</div>
-    <div> About us</div>
-</div>
 <body>
+<header>
+    <nav class="headerDetails">
+        <div class="logo"> [Youcode] </div>
+        <a href="#">Accueil</a>
+        <a href="#">À propos</a>
+        <a href="#">Contact</a>
+        <a href="#" class="search"> 🔍</a>
+        <a href="join.html" class="btn3"> Joindre</a>
+    </nav>
+</header>
+
 <main>
-    <section>
-        <div>
+    <section class="hero">
+        <div class="hero-text">
             <h1 class="brand">
                 Campus
-                <span> Life</span>
+                <span>Life <i class="wave">≈</i></span>
             </h1>
+
+            <h2>Vie étudiante à YouCode</h2>
+
+            <p class="intro"> Découvre un environnement d’apprentissage unique,</p>
+            <p> des rencontres inspirantes et une communauté qui code </p>
+            <p> le futur avec toi. </p>
+
+            <i class="buttons">
+                <a href="#" class="btn1"> Découvrir le campus → </a>
+                <a href="#" class="btn2"> ▦ Voir les événements </a>
+            </i>
+
+            <i class="letters">
+                <span>A</span>
+                <span>S</span>
+                <span>Y</span>
+                <span>M</span>
+                <p>
+                    Une communauté<br>
+                    de +1000 apprenants
+                </p>
+            </i>
         </div>
 
-        <h3>Vie étudiante à Youcode</h3>
-        <p> Découvre un environnement d’apprentissage unique, </p>
-        <p> des rencontres inspirantes et une communauté qui code </p>
-        <p> le futur avec toi. </p>
+        <div class="hero-image">
+            <img src="images/campusLife.jpg"
+                 alt="Une étudiante de YouCode">
+        </div>
     </section>
-
-    <div class="buttons">
-        <button type="button" class="btn1"> Découvrir le campus → </button>
-        <button type="button" class="btn2"> ▦ Voir les événements </button>
-    </div>
 </main>
+
 <footer>
 
 </footer>
 </body>
 </html>
-
